@@ -23,7 +23,7 @@ function Result() {
     }
 
     await axios.put(
-      `http://localhost:5000/api/ai/save-lesson/${scanId}`
+      `https://stemverseai1.onrender.com/api/ai/save-lesson/${scanId}`
     );
 
     alert("Lesson Saved Successfully ⭐");
