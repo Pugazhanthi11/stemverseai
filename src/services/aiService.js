@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/ai";
+const API = "https://stemverseai1.onrender.com/api/ai";
 
 export const analyzeImage = async (imageFile) => {
   const formData = new FormData();
