@@ -70,7 +70,7 @@ function CameraScan() {
     );
 
     const response = await axios.post(
-      "http://localhost:5000/api/ai/analyze-image",
+      "https://stemverseai1.onrender.com/api/ai/analyze-image",
       formData
     );
 
