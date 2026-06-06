@@ -13,7 +13,7 @@ function History() {
       try {
 
         const response = await axios.get(
-          "http://localhost:5000/api/ai/history"
+          "https://stemverseai1.onrender.com/api/ai/history"
         );
 
         setHistory(response.data);
