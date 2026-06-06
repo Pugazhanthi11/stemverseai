@@ -11,7 +11,7 @@ function Quiz() {
       setLoading(true);
 
       const response = await fetch(
-        "http://localhost:5000/api/ai/generate-quiz",
+        "https://stemverseai1.onrender.com/api/ai/generate-quiz",
         {
           method: "POST",
           headers: {
