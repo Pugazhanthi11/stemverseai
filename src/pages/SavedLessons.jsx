@@ -13,7 +13,7 @@ function SavedLessons() {
       try {
 
         const response = await axios.get(
-          "http://localhost:5000/api/ai/saved-lessons"
+          "https://stemverseai1.onrender.com/api/ai/saved-lessons"
         );
 
         setLessons(response.data);
