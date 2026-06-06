@@ -25,7 +25,7 @@ useEffect(() => {
     try {
 
       const response = await axios.get(
-        "http://localhost:5000/api/ai/dashboard-stats"
+        "https://stemverseai1.onrender.com/api/ai/dashboard-stats"
       );
 
       setStats(response.data);
